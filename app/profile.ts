@@ -148,7 +148,7 @@ export const leftPortfolio: typeof portfolio = {
         'Hardstyle, Deep House, G-House, Mylancore, Russian Car Remixes. The link follows you to my recent Playlist on SoundCloud.',
       category: 'musictaste',
       year: 'N/A',
-      url: '',
+      url: 'https://soundcloud.com/fdj7okxlg5ae/sets/9bkouk1jvhq3?si=f46d2e8d282942f39c604b5a04650ce2&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
     },
     {
       title: 'Other Info...',

@@ -66,7 +66,6 @@ tracks: [
   },
   socials: [
     { label: 'Discord', icon: 'discord', url: 'https://discord.com/users/1415607936209911808'},
-    { label: 'GitHub', icon: 'github', url: 'https://github.com' },
     { label: 'Steam', icon: 'steam', url: 'https://steamcommunity.com/id/ARTHXS/' },
     { label: 'Website', icon: 'globe', url: 'https://arthas.wtf' },
   ] as { label: string; icon: SocialIcon; url: string }[],
@@ -75,7 +74,7 @@ tracks: [
 export type Work = {
   title: string;
   description: string;
-  category: 'Whois?' | 'PCinfo' | 'code';
+  category: 'whois' | 'code' | 'musictaste' | 'misc';
   year: string;
   url: string;
 };
@@ -84,7 +83,7 @@ export type Work = {
 export const portfolio = {
   enabled: true,
   title: 'My Projects',
-  description: 'Previous Projects.',
+  description: 'My previous and ever made Projects.',
   categories: [
     { id: 'alle', label: 'All Projects' },
     { id: 'projekte', label: 'Projects' },
@@ -97,6 +96,13 @@ export const portfolio = {
       description: 'Modder for nostalgic Projects. Discontinued due Motivation and Time.',
       category: 'projekte',
       year: '2024 - 2026',
+      url: '',
+    },
+        {
+      title: 'WoW',
+      description: 'HUD / Addons is my current sector.',
+      category: 'projekte',
+      year: '2026',
       url: '',
     },
     {
@@ -123,14 +129,33 @@ export const leftPortfolio: typeof portfolio = {
   title: 'About me',
   description: '',
   categories: [
-    { id: 'Whois?', label: 'Who is this?' },
+    { id: 'whois', label: 'Who is ARTHAS?' },
+    { id: 'musictaste', label: 'Music Taste' },
+    { id: 'misc', label: 'Misc' },
   ],
   works: [
     {
       title: 'ARTHAS',
-      description: 'Dedicated modder and music producer, always creating, experimenting, and bringing new ideas to life. Passionate about game modding. Feel free to add me!',
-      category: 'Whois?',
+      description:
+        'Dedicated modder and music producer, always creating, experimenting, and bringing new ideas to life. Passionate about game modding. Feel free to add me!',
+      category: 'whois',
       year: 'N/A',
+      url: '',
+    },
+    {
+      title: 'What is he listening to?',
+      description:
+        'Hardstyle, Deep House, G-House, Mylancore, Russian Car Remixes. The link follows you to my recent Playlist on SoundCloud.',
+      category: 'musictaste',
+      year: 'N/A',
+      url: '',
+    },
+    {
+      title: 'Other Info...',
+      description:
+        'You want to be friends? Add me on Discord. (◣_◢)',
+      category: 'misc',
+      year: '+1',
       url: '',
     },
   ],

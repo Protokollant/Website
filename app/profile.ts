@@ -25,7 +25,7 @@ export const profile = {
     volume: 0.45,
 tracks: [
   {
-    title: 'Polarstern (G-House Remix)',
+    title: 'Polarstern - (G-House remix)',
     src: '/Polarstern.mp3',
     cover: '/song1cover.jpg',
     captions: '/ambient.vtt',
@@ -79,7 +79,7 @@ export type Work = {
   url: string;
 };
 
-// Beispiele ersetzen. Leere URLs zeigen keinen Link an.
+//Right Site
 export const portfolio = {
   enabled: true,
   title: 'My Projects',
@@ -148,7 +148,7 @@ export const leftPortfolio: typeof portfolio = {
         'Hardstyle, Deep House, G-House, Mylancore, Russian Car Remixes. The link follows you to my recent Playlist on SoundCloud.',
       category: 'musictaste',
       year: 'N/A',
-      url: 'https://soundcloud.com/fdj7okxlg5ae/sets/9bkouk1jvhq3?si=f46d2e8d282942f39c604b5a04650ce2&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+      url: '',
     },
     {
       title: 'Other Info...',

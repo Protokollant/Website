@@ -25,8 +25,8 @@ export const profile = {
     volume: 0.45,
 tracks: [
   {
-    title: 'Луна, Влад Пиво, Anor Dolphins (remix) Speedd Up',
-    src: '/anor.mp3',
+    title: 'Polarstern (G-House Remix)',
+    src: '/ghouse.mp3',
     cover: '/song1cover.jpg',
     captions: '/ambient.vtt',
   },

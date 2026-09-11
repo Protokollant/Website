@@ -26,7 +26,7 @@ export const profile = {
 tracks: [
   {
     title: 'Polarstern (G-House Remix)',
-    src: '/ghouse.mp3',
+    src: '/Polarstern.mp3',
     cover: '/song1cover.jpg',
     captions: '/ambient.vtt',
   },
